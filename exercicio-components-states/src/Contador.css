@@ -1,0 +1,70 @@
+div .count{
+    width: 320px;
+    height: 15vh;
+    border: none;
+    border-radius: 14px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: rgb(244, 248, 246);
+    background-color: rgb(34, 31, 65);
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;    
+}
+
+ button{
+    
+    margin:45px 10px;
+    width: 40%;
+    height: 8vh;
+    border: transparent;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+
+button:hover{
+    
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    background-color: rgb(154, 46, 255);
+    color: white;
+    box-shadow: rgb(76, 14, 134) 2px 5px 4px 1px;
+}
+
+.soma{
+    background: rgb(25, 97, 49);
+    color: whitesmoke;
+}
+
+.soma:hover{
+    transform: scale(1.1);
+    transition: 200ms ease-in;
+    background: rgb(41, 41, 41);
+}
+.subtrai{
+    background: rgb(10, 35, 104);
+    color: whitesmoke;
+}
+
+.subtrai:hover{
+    transform: scale(1.1);
+    transition: 200ms ease-in;
+    background: rgb(41, 41, 41);
+}
+
+.zeraCount{
+    background: rgb(0, 1, 3);
+    color: whitesmoke;
+}
+.zeraCount:hover{
+    transform: scale(1.1);
+    transition: 200ms ease-in;
+    background: rgb(49, 48, 48);
+}
